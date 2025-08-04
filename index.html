@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrowwTv- Premium OTT Subscription Service</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#" data-aos="fade-right">
+                <i class="fas fa-play-circle me-2"></i>GrowwTv
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary ms-2 px-3" href="#pricing">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Carousel -->
+    <section id="home" class="hero-section">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="hero-slide hero-slide-1">
+                        <div class="container">
+                            <div class="row align-items-center min-vh-100">
+                                <div class="col-lg-6" data-aos="fade-right">
+                                    <h1 class="hero-title">Stream Unlimited Entertainment</h1>
+                                    <p class="hero-subtitle">Access thousands of movies, TV shows, and exclusive content with our premium OTT subscription service.</p>
+                                    <div class="hero-buttons">
+                                        <a href="#pricing" class="btn btn-primary btn-lg me-3">Start Free Trial</a>
+                                        <a href="#about" class="btn btn-outline-light btn-lg">Learn More</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6" data-aos="fade-left">
+                                    <div class="hero-image">
+                                        <img src="https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Streaming" class="img-fluid rounded-4 shadow-lg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero-slide hero-slide-2">
+                        <div class="container">
+                            <div class="row align-items-center min-vh-100">
+                                <div class="col-lg-6" data-aos="fade-right">
+                                    <h1 class="hero-title">4K Ultra HD Quality</h1>
+                                    <p class="hero-subtitle">Experience cinema-quality streaming with crystal clear 4K resolution and immersive surround sound.</p>
+                                    <div class="hero-buttons">
+                                        <a href="#pricing" class="btn btn-primary btn-lg me-3">Upgrade Now</a>
+                                        <a href="#about" class="btn btn-outline-light btn-lg">View Plans</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6" data-aos="fade-left">
+                                    <div class="hero-image">
+                                        <img src="https://images.pexels.com/photos/1040160/pexels-photo-1040160.jpeg?auto=compress&cs=tinysrgb&w=800" alt="4K Quality" class="img-fluid rounded-4 shadow-lg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="hero-slide hero-slide-3">
+                        <div class="container">
+                            <div class="row align-items-center min-vh-100">
+                                <div class="col-lg-6" data-aos="fade-right">
+                                    <h1 class="hero-title">Watch Anywhere, Anytime</h1>
+                                    <p class="hero-subtitle">Stream on all your devices - TV, laptop, tablet, or phone. Download for offline viewing.</p>
+                                    <div class="hero-buttons">
+                                        <a href="#pricing" class="btn btn-primary btn-lg me-3">Get Started</a>
+                                        <a href="#contact" class="btn btn-outline-light btn-lg">Contact Us</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6" data-aos="fade-left">
+                                    <div class="hero-image">
+                                        <img src="https://images.pexels.com/photos/4009402/pexels-photo-4009402.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Multi Device" class="img-fluid rounded-4 shadow-lg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Brand Carousel -->
+    <section class="brand-carousel-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4" data-aos="fade-up">
+                    <h3 class="text-white">Trusted by Leading Brands</h3>
+                </div>
+            </div>
+            <div class="brand-carousel">
+                <div class="brand-track">
+                    <div class="brand-item"><img src="https://via.placeholder.com/150x80/333/fff?text=Netflix" alt="Netflix"></div>
+                    <div class="brand-item"><img src="https://via.placeholder.com/150x80/333/fff?text=Disney+" alt="Disney+"></div>
+                    <div class="brand-item"><img src="https://via.placeholder.com/150x80/333/fff?text=HBO" alt="HBO"></div>
+                    <div class="brand-item"><img src="https://via.placeholder.com/150x80/333/fff?text=Amazon" alt="Amazon"></div>
+                    <div class="brand-item"><img src="https://via.placeholder.com/150x80/333/fff?text=Hulu" alt="Hulu"></div>
+                    <div class="brand-item"><img src="https://via.placeholder.com/150x80/333/fff?text=Apple" alt="Apple"></div>
+                    <div class="brand-item"><img src="https://via.placeholder.com/150x80/333/fff?text=Paramount" alt="Paramount"></div>
+                    <div class="brand-item"><img src="https://via.placeholder.com/150x80/333/fff?text=Peacock" alt="Peacock"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movie Gallery -->
+    <section id="gallery" class="movie-gallery-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">World's Latest Hollywood Movies</h2>
+                    <p class="section-subtitle">Discover the newest blockbusters and exclusive premieres</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="movie-card">
+                        <img src="https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Movie 1" class="img-fluid">
+                        <div class="movie-overlay">
+                            <h5>Action Thriller</h5>
+                            <p>2024 • 4K • HDR</p>
+                            <button class="btn btn-primary btn-sm"><i class="fas fa-play me-2"></i>Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="movie-card">
+                        <img src="https://images.pexels.com/photos/1040160/pexels-photo-1040160.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Movie 2" class="img-fluid">
+                        <div class="movie-overlay">
+                            <h5>Sci-Fi Adventure</h5>
+                            <p>2024 • 4K • HDR</p>
+                            <button class="btn btn-primary btn-sm"><i class="fas fa-play me-2"></i>Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="movie-card">
+                        <img src="https://images.pexels.com/photos/4009402/pexels-photo-4009402.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Movie 3" class="img-fluid">
+                        <div class="movie-overlay">
+                            <h5>Drama Romance</h5>
+                            <p>2024 • 4K • HDR</p>
+                            <button class="btn btn-primary btn-sm"><i class="fas fa-play me-2"></i>Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="movie-card">
+                        <img src="https://images.pexels.com/photos/1200450/pexels-photo-1200450.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Movie 4" class="img-fluid">
+                        <div class="movie-overlay">
+                            <h5>Comedy Special</h5>
+                            <p>2024 • 4K • HDR</p>
+                            <button class="btn btn-primary btn-sm"><i class="fas fa-play me-2"></i>Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="movie-card">
+                        <img src="https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Movie 5" class="img-fluid">
+                        <div class="movie-overlay">
+                            <h5>Horror Mystery</h5>
+                            <p>2024 • 4K • HDR</p>
+                            <button class="btn btn-primary btn-sm"><i class="fas fa-play me-2"></i>Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="movie-card">
+                        <img src="https://images.pexels.com/photos/1200450/pexels-photo-1200450.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Movie 6" class="img-fluid">
+                        <div class="movie-overlay">
+                            <h5>Fantasy Epic</h5>
+                            <p>2024 • 4K • HDR</p>
+                            <button class="btn btn-primary btn-sm"><i class="fas fa-play me-2"></i>Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="700">
+                    <div class="movie-card">
+                        <img src="https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Movie 7" class="img-fluid">
+                        <div class="movie-overlay">
+                            <h5>Documentary</h5>
+                            <p>2024 • 4K • HDR</p>
+                            <button class="btn btn-primary btn-sm"><i class="fas fa-play me-2"></i>Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="800">
+                    <div class="movie-card">
+                        <img src="https://images.pexels.com/photos/1040160/pexels-photo-1040160.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Movie 8" class="img-fluid">
+                        <div class="movie-overlay">
+                            <h5>Animated Film</h5>
+                            <p>2024 • 4K • HDR</p>
+                            <button class="btn btn-primary btn-sm"><i class="fas fa-play me-2"></i>Watch Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Features -->
+    <section id="about" class="features-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Service Features</h2>
+                    <p class="section-subtitle">Experience the best streaming service with premium features</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-video"></i>
+                        </div>
+                        <h4>4K Ultra HD</h4>
+                        <p>Stream in stunning 4K Ultra HD quality with HDR support for the ultimate viewing experience.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <h4>Offline Downloads</h4>
+                        <p>Download your favorite movies and shows to watch offline anytime, anywhere without internet.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Multiple Profiles</h4>
+                        <p>Create up to 5 different profiles for family members with personalized recommendations.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4>Multi-Device Support</h4>
+                        <p>Watch on TV, laptop, tablet, or smartphone. Stream on up to 4 devices simultaneously.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h4>Global Content</h4>
+                        <p>Access content from around the world with subtitles and dubbing in multiple languages.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Secure Streaming</h4>
+                        <p>Your data is protected with enterprise-grade security and encrypted streaming technology.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Choose Your Plan</h2>
+                    <p class="section-subtitle">Flexible pricing options to suit your entertainment needs</p>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Basic</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">9.99</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> HD Quality (720p)</li>
+                            <li><i class="fas fa-check"></i> 1 Device</li>
+                            <li><i class="fas fa-check"></i> Limited Downloads</li>
+                            <li><i class="fas fa-check"></i> Basic Support</li>
+                            <li><i class="fas fa-times"></i> No Ads</li>
+                        </ul>
+                        <button class="btn btn-outline-primary w-100">Choose Basic</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">Most Popular</div>
+                        <div class="pricing-header">
+                            <h3>Premium</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">15.99</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> 4K Ultra HD</li>
+                            <li><i class="fas fa-check"></i> 4 Devices</li>
+                            <li><i class="fas fa-check"></i> Unlimited Downloads</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                            <li><i class="fas fa-check"></i> Ad-Free Experience</li>
+                        </ul>
+                        <button class="btn btn-primary w-100">Choose Premium</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Family</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">19.99</span>
+                                <span class="period">/month</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> 4K Ultra HD</li>
+                            <li><i class="fas fa-check"></i> 6 Devices</li>
+                            <li><i class="fas fa-check"></i> Unlimited Downloads</li>
+                            <li><i class="fas fa-check"></i> 24/7 Support</li>
+                            <li><i class="fas fa-check"></i> 5 User Profiles</li>
+                        </ul>
+                        <button class="btn btn-outline-primary w-100">Choose Family</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Why Choose Us for Your OTT Subscription</h2>
+                    <p class="section-subtitle">Discover what makes us the preferred choice for millions of viewers worldwide</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="why-choose-content">
+                        <div class="why-choose-item">
+                            <div class="why-choose-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="why-choose-text">
+                                <h4>Premium Content Library</h4>
+                                <p>Access to over 50,000+ movies, TV shows, documentaries, and exclusive originals from top studios worldwide.</p>
+                            </div>
+                        </div>
+                        <div class="why-choose-item">
+                            <div class="why-choose-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <div class="why-choose-text">
+                                <h4>Lightning Fast Streaming</h4>
+                                <p>Advanced CDN technology ensures buffer-free streaming with instant playback and minimal loading times.</p>
+                            </div>
+                        </div>
+                        <div class="why-choose-item">
+                            <div class="why-choose-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="why-choose-text">
+                                <h4>Personalized Experience</h4>
+                                <p>AI-powered recommendations based on your viewing history and preferences for a tailored experience.</p>
+                            </div>
+                        </div>
+                        <div class="why-choose-item">
+                            <div class="why-choose-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="why-choose-text">
+                                <h4>24/7 Customer Support</h4>
+                                <p>Round-the-clock customer support with live chat, email, and phone assistance in multiple languages.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="why-choose-image">
+                        <img src="https://images.pexels.com/photos/4009402/pexels-photo-4009402.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Why Choose Us" class="img-fluid rounded-4 shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Feedback -->
+    <section class="feedback-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Feedback from Our Customers</h2>
+                    <p class="section-subtitle">See what our satisfied customers are saying about GrowwTv</p>
+                    <div class="trustpilot-rating">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="rating-text">4.8/5 based on 12,000+ reviews on Trustpilot</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"GrowwTv has completely changed my entertainment experience. The 4K quality is amazing and the content library is vast!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/1040160/pexels-photo-1040160.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Customer" class="author-image">
+                            <div class="author-info">
+                                <h5>Sarah Johnson</h5>
+                                <span>Premium Subscriber</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Best streaming service I've ever used. No buffering, great content, and excellent customer support. Highly recommended!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/1200450/pexels-photo-1200450.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Customer" class="author-image">
+                            <div class="author-info">
+                                <h5>Michael Chen</h5>
+                                <span>Family Plan User</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-card">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"The offline download feature is a game-changer for my daily commute. Love the personalized recommendations too!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.pexels.com/photos/1587927/pexels-photo-1587927.jpeg?auto=compress&cs=tinysrgb&w=100" alt="Customer" class="author-image">
+                            <div class="author-info">
+                                <h5>Emily Rodriguez</h5>
+                                <span>Basic Plan User</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What Are You Thinking -->
+    <section class="thinking-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center" data-aos="fade-up">
+                    <h2 class="section-title">What Are You Thinking About Our Service?</h2>
+                    <p class="section-subtitle mb-4">Join millions of satisfied customers and start your streaming journey today</p>
+                    <div class="thinking-stats">
+                        <div class="row g-4">
+                            <div class="col-md-3 col-6">
+                                <div class="stat-item">
+                                    <h3 class="stat-number" data-count="50000">0</h3>
+                                    <p>Movies & Shows</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="stat-item">
+                                    <h3 class="stat-number" data-count="10">0</h3>
+                                    <p>Million Users</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="stat-item">
+                                    <h3 class="stat-number" data-count="190">0</h3>
+                                    <p>Countries</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-6">
+                                <div class="stat-item">
+                                    <h3 class="stat-number" data-count="99">0</h3>
+                                    <p>% Uptime</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thinking-cta mt-5">
+                        <a href="#pricing" class="btn btn-primary btn-lg me-3">Start Free Trial</a>
+                        <a href="#contact" class="btn btn-outline-light btn-lg">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                    <p class="section-subtitle">Find answers to common questions about our streaming service</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAccordion" data-aos="fade-up">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    What devices can I use to stream content?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You can stream on smart TVs, computers, tablets, smartphones, gaming consoles, and streaming devices like Roku, Apple TV, and Chromecast. Our service is compatible with iOS, Android, Windows, macOS, and most web browsers.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Can I download content for offline viewing?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes! With our Premium and Family plans, you can download unlimited movies and shows to watch offline. Basic plan users get limited downloads. Downloaded content is available for 30 days or 48 hours after you start watching.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    How many people can use my account?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You can create up to 5 user profiles on your account. The number of simultaneous streams depends on your plan: Basic (1 device), Premium (4 devices), and Family (6 devices). Each profile gets personalized recommendations.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    Is there a free trial available?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes! We offer a 7-day free trial for new subscribers. You can access all features of your chosen plan during the trial period. Cancel anytime before the trial ends to avoid charges.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                                    Can I cancel my subscription anytime?
+                                </button>
+                            </h2>
+                            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Absolutely! You can cancel your subscription at any time with no cancellation fees. Your service will continue until the end of your current billing period, and you won't be charged for the next cycle.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Get in Touch</h2>
+                    <p class="section-subtitle">Have questions? We're here to help you get started</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4" data-aos="fade-right">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                                <p>Mon-Fri 9AM-6PM EST</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>support@GrowwTv.com</p>
+                                <p>We'll respond within 24 hours</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Live Chat</h4>
+                                <p>Available 24/7</p>
+                                <p>Instant support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8" data-aos="fade-left">
+                    <form class="contact-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Subject" required>
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-brand">
+                        <h3><i class="fas fa-play-circle me-2"></i>GrowwTv</h3>
+                        <p>Your premium destination for unlimited entertainment. Stream the latest movies, TV shows, and exclusive content in stunning 4K quality.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h5>Company</h5>
+                        <ul class="ps-0">
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#pricing">Pricing</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h5>Support</h5>
+                        <ul class="ps-0">
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="help.html">Help Center</a></li>
+                            <li><a href="contact.html">Contact Support</a></li>
+                            <li><a href="status.html">Service Status</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h5>Legal</h5>
+                        <ul class="ps-0">
+                            <li><a href="terms.html">Terms & Conditions</a></li>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="refund.html">Refund Policy</a></li>
+                            <li><a href="disclaimer.html">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h5>Download</h5>
+                        <ul class="ps-0">
+                            <li><a href="#">iOS App</a></li>
+                            <li><a href="#">Android App</a></li>
+                            <li><a href="#">Smart TV App</a></li>
+                            <li><a href="#">Desktop App</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-divider">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="footer-copyright">&copy; 2024 GrowwTv. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="footer-payment">
+                        <span>We Accept:</span>
+                        <i class="fab fa-cc-visa"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-paypal"></i>
+                        <i class="fab fa-cc-apple-pay"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
